@@ -2,7 +2,7 @@
 #$ -cwd -V
 #$ -o log
 #$ -e log
-#$ -P fraser.prjc.low -q short.qc,jeeves.q,gromit.q,brienne.q
+#$ -q short.qc@@short.hge
 #$ -pe shmem 1
 
 module load GSL/2.6-GCC-8.3.0
