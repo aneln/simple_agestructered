@@ -47,7 +47,7 @@ def get_baseline_parameters():
     params = Parameters(input_parameter_file, parameter_line_number, output_dir, household_demographics_file)
     return params
 
-end_time = 100
+end_time = 150
 
 def get_simulation( params ):
     params.set_param( "end_time", end_time )
