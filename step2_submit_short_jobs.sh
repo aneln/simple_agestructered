@@ -4,4 +4,4 @@
 source config.sh
 
 # Submit array job
-qsub -t 1-2730 -N OpenABM-sas ./jobs/sas_jobs.sh simcommandlines_sas.txt
+qsub -t 1-2730 -N OpenABM-sas ./jobs/qhh_jobs.sh simcommandlines_qhh.txt
